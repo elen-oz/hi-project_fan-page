@@ -1,3 +1,7 @@
+:root {
+  --header-color: #fe28a9;
+}
+
 html {
   height: 100%;
 }
@@ -6,6 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  background: url('../img/bg.png');
 }
 
 header {
@@ -79,6 +84,22 @@ ul.header-menu {
 
 .header-menu li {
   padding: 10px;
+}
+
+h1 {
+  text-align: center;
+
+  /* font-family: 'Comic Con', fantasy; */
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  font-size: 40px;
+  font-weight: 900;
+  color: var(--header-color);
+  background-color: white;
+  border: thick double #32a1ce;
+}
+
+.underline-text {
+  text-decoration: underline;
 }
 
 .footer-container {
