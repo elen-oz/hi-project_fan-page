@@ -93,12 +93,22 @@ ul.header-menu {
 
 h1 {
   text-align: center;
-  /* font-family: 'Comic Sans MS', 'Comic Sans', cursive; */
   font-size: 40px;
   font-weight: 900;
   color: var(--header-color);
   background-color: white;
   border: thick double #32a1ce;
+}
+
+.img-main {
+  max-width: 300px;
+  border-radius: 20px;
+}
+
+.img-circle {
+  display: block;
+  margin: 30px auto;
+  border-radius: 100px;
 }
 
 h2 {
@@ -111,10 +121,51 @@ h2 {
   border: thick double #32a1ce;
 }
 
+.first-gif,
+.second-gif {
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+/* .second-gif {
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+} */
+
+.h3-text-bg {
+  display: inline-block;
+  padding: 0 1rem;
+  color: white;
+  background-color: var(--header-color);
+  border-radius: 20px;
+}
+
 .text-bg {
+  padding: 15px 20px;
   background-color: var(--text-bg);
   border-radius: 20px;
 }
+
+ul.list-love-bruce {
+  list-style-type: '\01F498';
+
+  /* list-style: none; */
+}
+
+ul.list-did-you-know {
+  list-style-type: '\01F49B';
+}
+
+ul.list-other-films {
+  list-style-type: '\27A4';
+}
+
+/* ul.list-love-bruce li::before {
+  content: '\01F498';
+  margin-left: -2em;
+} */
 
 .underline-text {
   text-decoration: underline;
