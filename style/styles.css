@@ -1,7 +1,7 @@
 :root {
   --header-color: #fe286c;
   --h2-color: #f9bb00;
-  --header-footer-bg: #fdd0d6;
+  --header-footer-bg: #faecc4;
   --text-background: #faecc4;
   --text-border: #ffcf4d;
 }
@@ -16,6 +16,7 @@ body {
   flex-direction: column;
   height: 100%;
   background: url('../img/bg-stars.png');
+  color: #cc0141;
 }
 
 .header {
@@ -86,6 +87,7 @@ ul.header__menu-list {
 
   display: flex;
   flex-direction: row;
+  margin-bottom: 0;
 }
 
 .header__container {
@@ -112,13 +114,12 @@ ul.header__menu-list {
 }
 
 h1 {
-  margin-top: 3rem;
   text-align: center;
   font-size: 40px;
   font-weight: 900;
   color: var(--header-color);
   background-color: white;
-  border: thick double #32a1ce;
+  border: thick double var(--text-border);
 }
 
 .text--gradient {
