@@ -2,7 +2,7 @@
   --header-color: #fe286c;
   --h2-color: #f9bb00;
   --header-footer-bg: #faecc4;
-  --text-background: #faecc4;
+  --text-background: #fae0c4;
   --text-border: #ffcf4d;
 }
 
@@ -16,6 +16,7 @@ body {
   flex-direction: column;
   height: 100%;
   background: url('../img/bg-stars.png');
+  background-attachment: fixed;
   color: #cc0141;
 }
 
@@ -114,6 +115,8 @@ ul.header__menu-list {
 }
 
 .container {
+  max-width: 1000px;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -126,9 +129,23 @@ ul.header__menu-list {
   padding: 10px;
 }
 
-.main__container {
+/* .main__container {
   max-width: 1000px;
   margin: 0 auto;
+} */
+
+.image-in-the-right-corner {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 17rem;
+}
+
+.image-in-the-left-corner {
+  position: fixed;
+  bottom: -10px;
+  left: 0;
+  width: 20rem;
 }
 
 .main__images {
@@ -139,7 +156,7 @@ ul.header__menu-list {
 
 h1 {
   text-align: center;
-  font-size: 40px;
+  font-size: 3rem;
   font-weight: 900;
   color: var(--header-color);
   background-color: white;
@@ -148,7 +165,7 @@ h1 {
 
 .text--gradient {
   font-family: serif;
-  font-size: 2rem;
+  font-size: 2.8rem;
   text-transform: uppercase;
   background-image: linear-gradient(violet, blue, green, rgb(255, 191, 0), red, red);
   -webkit-background-clip: text;
@@ -188,6 +205,7 @@ h2 {
   text-align: center;
   font-size: 30px;
   font-weight: 900;
+  text-transform: capitalize;
   color: var(--h2-color);
   background-color: white;
   border: thick double #32a1ce;
@@ -325,6 +343,7 @@ ul.main__other-films-list {
 }
 
 footer {
+  margin-top: 10rem; /* needs for cat&dog pics */
   background-color: var(--header-footer-bg);
   font-family: serif;
   font-weight: 700;
@@ -338,6 +357,19 @@ footer {
   margin-bottom: 0;
 }
 
+.subscription-form {
+  margin: 0 auto;
+  padding: 0 0 40px;
+  width: 600px;
+  background-color: #faecc4;
+  border-width: 3px;
+  /* border-style: dashed; */
+  border-style: dotted;
+  border-color: var(--header-color);
+}
+
 .text--subscribe {
+  background-color: var(--header-footer-bg);
   text-transform: uppercase;
+  border: none;
 }
