@@ -2,7 +2,7 @@
   --header-color: #fe286c;
   --h2-color: #f9bb00;
   --second-bg: #f87e8e;
-  --text-bg: #f7aab2;
+  --text--background: #f7aab2;
 }
 
 html {
@@ -84,7 +84,7 @@ header {
   background-color: var(--second-bg);
 }
 
-ul.header-menu {
+ul.header__menu {
   padding: 0;
   list-style-type: none;
 
@@ -100,11 +100,11 @@ ul.header-menu {
   text-align: start;
 }
 
-.header-menu li {
+.header__menu li {
   padding: 10px;
 }
 
-.gifs-and-img {
+.main-content__gifs {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -129,26 +129,26 @@ h1 {
   color: transparent;
 }
 
-.img-gallery {
+.image-gallery {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.img-main {
+.image-gallery__main-image {
   max-width: 300px;
   border-radius: 20px;
   border: 5px solid var(--header-color);
 }
 
-.img-circle {
+.image--circle {
   display: block;
   margin: 30px auto 0;
   border-radius: 1000px;
   border: 5px solid var(--header-color);
 }
 
-.gif-square {
+.image--square {
   border: none;
   border-radius: 0;
   width: 270px;
@@ -166,7 +166,7 @@ h2 {
   border: thick double #32a1ce;
 }
 
-.content-who-is-bruce {
+.content__description {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -180,14 +180,14 @@ h2 {
   border: 5px solid var(--header-color);
 }
 
-.why-we-love-content {
+.content__love {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
 }
 
-.rainbow-letters {
+.text--rainbow-letters {
   padding: 0 15px;
   display: inline-block;
   margin: 20px 0 25px;
@@ -202,47 +202,47 @@ h2 {
   /* text-decoration: 2px, solid, var(--h2-color); */
   /* text-decoration: underline; */
 }
-.rainbow-letters span:nth-child(10n + 1) {
+.text--rainbow-letters span:nth-child(10n + 1) {
   color: #ef5350;
 }
 
-.rainbow-letters span:nth-child(10n + 2) {
+.text--rainbow-letters span:nth-child(10n + 2) {
   color: #ab47bc;
 }
 
-.rainbow-letters span:nth-child(10n + 3) {
+.text--rainbow-letters span:nth-child(10n + 3) {
   color: #651fff;
 }
 
-.rainbow-letters span:nth-child(10n + 5) {
+.text--rainbow-letters span:nth-child(10n + 5) {
   color: #4caf50;
 }
 
-.rainbow-letters span:nth-child(10n + 4) {
+.text--rainbow-letters span:nth-child(10n + 4) {
   color: #2196f3;
 }
 
-.rainbow-letters span:nth-child(10n + 6) {
+.text--rainbow-letters span:nth-child(10n + 6) {
   color: #00bcd4;
 }
 
-.rainbow-letters span:nth-child(10n + 7) {
+.text--rainbow-letters span:nth-child(10n + 7) {
   color: #ff8f07;
 }
 
-.rainbow-letters span:nth-child(10n + 8) {
+.text--rainbow-letters span:nth-child(10n + 8) {
   color: #ffc107;
 }
 
-.rainbow-letters span:nth-child(10n + 9) {
+.text--rainbow-letters span:nth-child(10n + 9) {
   color: #87c306;
 }
 
-.rainbow-letters span:nth-child(10n + 10) {
+.text--rainbow-letters span:nth-child(10n + 10) {
   color: #e80a93;
 }
 
-.h3-text-bg {
+.h3--background {
   display: inline-block;
   padding: 0 1rem;
   color: white;
@@ -250,19 +250,19 @@ h2 {
   border-radius: 20px;
 }
 
-.text-bg {
+.text--background {
   padding: 15px 20px;
-  background-color: var(--text-bg);
+  background-color: var(--text--background);
   border-radius: 20px;
 }
 
-ul.list-love-bruce {
-  list-style-type: '\01F498';
+ul.list__love-bruce {
+  list-style-type: '\27A4';
 
   /* list-style: none; */
 }
 
-ul.list-did-you-know {
+ul.list__facts {
   list-style-type: '\01F49B';
 }
 
@@ -270,12 +270,12 @@ ul.list-other-films {
   list-style-type: '\27A4';
 }
 
-/* ul.list-love-bruce li::before {
+/* ul.list__love-bruce li::before {
   content: '\01F498';
   margin-left: -2em;
 } */
 
-.underline-text {
+.text--underline {
   text-decoration: underline;
 }
 
@@ -284,11 +284,11 @@ footer {
   font-family: serif;
   font-weight: 700;
 }
-.footer-container {
+.footer__container {
   padding: 10px 0 5px;
   text-align: center;
 }
 
-.footer-container p {
+.footer__container p {
   margin-bottom: 0;
 }
