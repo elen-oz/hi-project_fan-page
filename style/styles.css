@@ -138,14 +138,21 @@ ul.header__menu-list {
   position: fixed;
   bottom: 0;
   right: 0;
-  width: 17rem;
+  width: 16rem;
 }
 
 .image-in-the-left-corner {
   position: fixed;
-  bottom: -10px;
+  bottom: 0;
   left: 0;
-  width: 20rem;
+  width: 13rem;
+}
+
+.image-in-the-right-top-corner {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 16rem;
 }
 
 .main__images {
