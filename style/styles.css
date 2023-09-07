@@ -126,6 +126,11 @@ ul.header__menu-list {
   padding: 10px;
 }
 
+.main__container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .main__images {
   display: flex;
   justify-content: space-around;
@@ -151,6 +156,7 @@ h1 {
 }
 
 .main__gallery {
+  margin: 40px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -170,9 +176,9 @@ h1 {
 }
 
 .image--square {
-  border: none;
-  border-radius: 0;
-  width: 270px;
+  display: block;
+  margin: 30px auto 0;
+  width: 150px;
 }
 
 h2 {
@@ -193,12 +199,36 @@ h2 {
   gap: 20px;
 }
 
-.first-gif,
-.image--second {
+.image--first {
   display: block;
   margin: 0 auto;
   border-radius: 10px;
   border: 5px solid var(--header-color);
+}
+
+.gallery__img1 {
+  background-image: url('../img/Bruce-Willis2.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 430px;
+}
+.gallery__img2 {
+  background-image: url('../img/Bruce-Willis8.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 430px;
+}
+.gallery__img3 {
+  background-image: url('../img/Bruce-Willis7.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 430px;
+}
+.gallery__img4 {
+  background-image: url('../img/Bruce-Willis9.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 430px;
 }
 
 .main__love-section {
