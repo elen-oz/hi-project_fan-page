@@ -134,24 +134,24 @@ ul.header__menu-list {
   margin: 0 auto;
 } */
 
-.image-in-the-right-corner {
+/* .image-in-the-right-corner {
   position: fixed;
   bottom: 0;
   right: 0;
-  width: 16rem;
+  width: 20rem;
+} */
+
+.image-in-the-right-top-corner {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 20rem;
 }
 
 .image-in-the-left-corner {
   position: fixed;
   bottom: 0;
   left: 0;
-  width: 13rem;
-}
-
-.image-in-the-right-top-corner {
-  position: fixed;
-  top: 0;
-  right: 0;
   width: 16rem;
 }
 
