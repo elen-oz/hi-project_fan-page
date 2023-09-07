@@ -337,3 +337,7 @@ footer {
 .footer__content p {
   margin-bottom: 0;
 }
+
+.text--subscribe {
+  text-transform: uppercase;
+}
