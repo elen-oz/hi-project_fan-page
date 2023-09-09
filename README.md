@@ -18,3 +18,13 @@ This website is a fan-page dedicated to the one and only Bruce Willis for die-ha
 
 A nostalgic 90s design (Comic Sans included, because why not?)
 A vibrant homepage with a warm welcome to all Bruce enthusiasts.
+
+####Tech Stack
+
+- HTML: The structure of our website.
+- CSS: Styling and animations to give it that 90s vibe.
+
+#### How to Use
+
+Clone the repository.
+Open index.html in your favorite browser.
